@@ -15,6 +15,15 @@
     padding: 0 0px;
     font-family: sans-serif;
   }
+
+  .name{
+    color:#f5811e;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+  margin-left: initial;
+  }
   
   .navbar .nav-list li a {
     color: #ff7d0c;
@@ -321,18 +330,19 @@
   
     .navbar .nav-list {
       position: fixed;
-      height: 60vh;
-      width: 100%;
-      left: 500px;
-      top: 0;
-      background: rgb(0, 0, 0);
-      text-align: center;
-      padding-top: 110px;
-      transition: all 0.4s ease;
+    height: 60vh;
+    width: 100%;
+    right: -100%;
+    top: 0;
+    background: rgb(0, 0, 0);
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 80px;
+    transition: all 0.2s ease;
     }
   
     .navbar .nav-list.active {
-      left: 0%;
+      right: 0%;
     }
     .navbar .nav-list li {
       display: block;
@@ -374,6 +384,15 @@
       width: 180px;
       height: 180px;
     }
+
+    .name{
+      color:#f5811e;
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+    margin-right: 90px;
+      }
   
     .paras {
       text-align: center;
