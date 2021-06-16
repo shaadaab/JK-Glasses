@@ -30,7 +30,7 @@
   font-size: 21px;
   font-weight: 700;
   margin-left: 20px;
-  transition: color 0.2s ease;
+  transition: color 0.0s linear;
 }
 
 ul{
