@@ -330,11 +330,11 @@ a {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 792px) {
   .box-main {
     flex-direction: column;
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
   }
 
   img {
