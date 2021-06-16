@@ -424,14 +424,6 @@ a {
     margin-top: -30px;
   }
 
-  .name{
-    color:#f5811e;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    margin-right: 90px;
-    }
 
   p.dealer {
     text-align: center;
@@ -448,4 +440,48 @@ a {
     font-weight: bold;
     font-family: sans-serif;
   }
+}
+
+@media only screen and (max-width: 950px){
+  .name{
+    color:#f5811e;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-right: 250px;
+    }
+}
+
+@media only screen and (max-width: 792px){
+  .name{
+    color:#f5811e;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    }
+}
+
+@media only screen and (max-width: 411px){
+  .name{
+    color:#f5811e;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 895px){
+  .name{
+    color:#f5811e;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 200px;
+    }
 }
