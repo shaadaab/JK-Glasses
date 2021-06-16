@@ -21,7 +21,7 @@
   font-size: 21px;
   font-weight: 700;
   margin-left: 20px;
-  transition: color 0.0s linear;
+  transition: color 0.2s ease;
 }
 
 ul {
@@ -306,7 +306,7 @@ a {
 
   .navbar .nav-list {
     position: fixed;
-    height: 60vh;
+    height: auto;
     width: 100%;
     right: -100%;
     top: 0;
@@ -314,7 +314,7 @@ a {
     text-align: right;
     padding-right: 70px;
     padding-top: 80px;
-    transition: all 0.2s ease;
+    transition: all 0.0s linear;
   }
 
   .navbar .nav-list.active {
