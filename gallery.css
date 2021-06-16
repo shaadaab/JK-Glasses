@@ -429,14 +429,7 @@
       text-align: left;
       font-size: 50px;
     }
-    .name{
-      color:#f5811e;
-      text-align: center;
-      font-family: sans-serif;
-      font-weight: bold;
-      font-size: 25px;
-      margin-right: 90px;
-      }
+    
     .head2{
         text-align: left;
         font-size: 50px;
@@ -465,3 +458,11 @@
     }
   }
   
+.name{
+      color:#f5811e;
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      margin-right: 90px;
+      }
